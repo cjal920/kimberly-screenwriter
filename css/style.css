@@ -1,0 +1,515 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+/* GLOBAL */
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+h1
+ {
+  text-align: center;
+  /* font-size: 60px; */
+  /* letter-spacing: 10px; */
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h2
+ {
+  text-align: center;
+  /* font-size: 60px; */
+  /* letter-spacing: 10px; */
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h3 {
+  text-align: center;
+  /* letter-spacing: 5px; */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h4
+{
+  text-align: center;
+  /* letter-spacing: 5px; */
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+button  {
+  background: #000;
+  color: #fff;
+  opacity: .5;
+  border: none;
+  text-decoration: none;
+}
+
+button:focus  {
+    outline: none;
+}
+
+button:hover  {
+  opacity: 1;
+}
+
+.poster {
+  padding: 50px;
+}
+
+.project {
+  padding-top: 65px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.title  {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  padding-bottom: 20px;
+}
+
+
+/* NAV */
+
+.navbar-toggler,
+.dropdown-toggle,
+.material-icons {
+  color: #fff;
+}
+
+#mainNav {
+  background-color: #ffffff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#mainNav {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a:hover {
+  color: #000;
+}
+
+#mainNav.navbar-shrink {
+  background-color: #555;
+  color: #000;
+}
+
+.nav-link,
+.navbar-toggler-right  {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+} 
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #333;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-toggle  {
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-toggle:focus {
+  outline: none;
+}
+
+.dropdown-toggle:hover,
+.material-icons:hover {
+  color: #fff;
+}
+
+.dropdown-link  {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 17px;
+  color: #000000;
+}
+
+.dropdown-link:hover  {
+  color: #725700;
+  text-decoration: none;
+}
+
+
+.menu {
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  margin: 6px 0;
+}
+
+
+
+/* HOME */
+
+section.home {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 320px;
+  background: #000;
+  color: #867828;
+  color: #725700;
+}
+
+.star-bottom-left {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  bottom: 1px;
+  left: 1px;
+  /* background: #000; */
+  /* background-image: linear-gradient(#000000, #16160b, #575627, #fffd82); */
+}
+
+
+
+/* ============================================================================================== 
+SED Innovations
+https://sed.am
+https://mkrtchyan.ga
+================================================================================================= */
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color:rgba(33, 33, 33, 0.9);
+  color:#ffffff;
+  display:block;
+  font: 14px/1.3 Arial,sans-serif;
+  height:50px;
+  position:relative;
+  z-index:5;
+}
+h2{
+  margin-top: 30px;
+  text-align: center;
+}
+header h2{
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 80%;
+  text-align: center;
+}
+header a, a:visited {
+  text-decoration:none;
+  color:#fcfcfc;
+}
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+width:100%;
+height:100%;
+display:block;
+}
+
+.stars {
+background: #000 url(../img/stars.png) repeat top center;
+
+z-index:0;
+}
+
+.twinkling{
+background:transparent url(../img/twinkling.png) repeat top center;
+z-index:1;
+
+-moz-animation:move-twink-back 200s linear infinite;
+-ms-animation:move-twink-back 200s linear infinite;
+-o-animation:move-twink-back 200s linear infinite;
+-webkit-animation:move-twink-back 200s linear infinite;
+animation:move-twink-back 200s linear infinite;
+}
+
+/* .clouds{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+  z-index:3;
+
+-moz-animation:move-clouds-back 200s linear infinite;
+-ms-animation:move-clouds-back 200s linear infinite;
+-o-animation:move-clouds-back 200s linear infinite;
+-webkit-animation:move-clouds-back 200s linear infinite;
+animation:move-clouds-back 200s linear infinite;
+} */
+
+
+
+
+
+
+
+
+/* ABOUT */
+
+section.about {
+  position: relative;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 320px;
+  background: #ff82a8;
+  color: #fff;
+}
+
+/* RESUME */
+
+section.resume {
+  position: relative;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 320px;
+  background: #fff;
+  color: #ff2c3e;
+}
+
+/* PROJECTS */
+
+section.projects {
+  position: relative;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 320px;
+  background: #252525;
+  color: #c9c9c9;
+}
+
+/* ANNOUCEMENTS */
+
+section.announcements {
+  position: relative;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 320px;
+  background: #3d3d3d;
+  color: #9b9b9b;
+}
+
+/* CONTACT */
+
+section.projects {
+  position: relative;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 320px;
+  background: #252525;
+  color: #c9c9c9;
+}
+
+
+
+/* FEATURES */
+
+section.features {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #555;
+  color: #fff;
+}
+
+/* LEAH ROSE */
+
+section.leah-rose {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background: #eeeeee;
+  color: #000000;
+}
+
+#poster-lr {
+  width: 100%;
+  border: outset #867828 10px;
+}
+
+section.spacer-lr {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  background: #eee;
+}
+
+
+/* BETWEEN LINES */
+
+section.between-lines {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background: #fff;
+  color: #000000;
+}
+
+#poster-bl {
+  width: 100%;
+  border: outset #1d9100 10px;
+}
+
+section.spacer-bl {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  background: #fff;
+}
+
+/* PILOTS */
+
+section.pilots {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #555;
+  color: #fff;
+}
+
+/* FISHTOWN */
+
+section.fishtown {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background: #000;
+  color: #fff;
+}
+
+#poster-f {
+  width: 100%;
+  border: outset #fbff00 10px;
+}
+
+section.spacer-f {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  background: #000;
+}
+
+
+/* FOOTER */
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: #ffffff4d;
+  background-color: #222222;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  font-size: 12px;
+  color: #ffffff4d;
+}
+
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
